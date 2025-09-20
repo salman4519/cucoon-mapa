@@ -215,12 +215,12 @@ export default function CuCoonDashboard() {
       </div>
 
       <div className="text-center text-xs text-muted-foreground font-mono space-y-1">
-        <div>
+        {/* <div>
           Current State: <span className="text-foreground">{systemState.toUpperCase()}</span>
         </div>
         <div>
           MQTT: <span className="text-foreground">{mqttClient?.connected ? "CONNECTED" : "DISCONNECTED"}</span>
-        </div>
+        </div> */}
         <div>System Ready • Monitoring Active</div>
       </div>
 
